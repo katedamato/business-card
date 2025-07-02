@@ -1,0 +1,65 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+<title>Business Card</title>
+<link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="business-card">
+        <!--Change image here-->
+        <img class="profile-image" src="file:///Users/katedamato/Downloads/Portfolio/profilepic.jpg" alt="profile picture">
+<p class="full-name">Kate D'Amato</p>
+<p class="designation"> Aspiring Software Engineer & Data Analaysis</p>
+<p class="company">Student at Christopher Newport University</p>
+<hr>
+<p>kdamato2b@gmail.com</p>
+<p>571-474-7126</p>
+<a href="www.linkedin.com/in/kathryndamato">Portfolio</a>
+<hr>
+<div class="social-media">
+    <h2>Connect with me</h2>
+    <a href="www.linkedin.com/in/kathryndamato">Twitter</a>
+    <a href="www.linkedin.com/in/kathryndamato">LinkedIn</a>
+    <a href="www.linkedin.com/in/kathryndamato">GitHub</a>
+    </div>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background-color:rosybrown;
+  font-family:Arial,sans-serif;
+}
+p {
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.business-card {
+  width:300px;
+background-color:white;
+padding:20px;
+margin-top:100px;
+text-align:center;
+font-size:16px;
+margin-left:auto;
+margin-right:auto;
+
+}
+.profile-image {
+max-width:100%;
+}
+a {
+text-decoration:none;
+}
+
+** end of styles.css **
+
